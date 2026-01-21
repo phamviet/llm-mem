@@ -34,7 +34,7 @@ RUN chmod +x /usr/local/bin/docker-entrypoint
 ENV OPENAI_BASE_URL=https://api.openai.com/v1 \
     QDRANT_URL=http://qdrant:6334 \
     QDRANT_COLLECTION_NAME=cortex-memory \
-    LLM_MODEL=openai/gpt-4o-mini \
+    LLM_MODEL=gpt-5-mini \
     EMBEDDING_MODEL=text-embedding-3-small
 
 USER appuser
